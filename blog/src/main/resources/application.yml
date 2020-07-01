@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev
+
+  messages:
+    basename: i18n/messages
+
+#local resource
+comment.avatar: /img/touxiang.png
+
+#network resource
+#comment.avatar: https://picsum.photos/30/30
